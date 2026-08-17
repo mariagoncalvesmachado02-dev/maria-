@@ -1,14 +1,219 @@
-'<!DOCTYPE html>
-<html lang="pt">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coxa doido</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoLar - Guia de Transição Ecológica Doméstica</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="nome">meu nome é maria</h1> 
-    <h2>meu numero é 30</h2>
-<p>gosto de ouvir musica</p>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="leaf-icon">🍃</div>
+      <h1>Guia de Transição Ecológica Doméstica</h1>
+      <p>Descubra como transformar sua casa em um espaço sustentável e contribuir para um futuro mais verde. Pequenas mudanças podem gerar grandes impactos.</p>
+      <button class="btn-primary" onclick="document.getElementById('calculadora').scrollIntoView({behavior:'smooth'})">Começar Agora</button>
+    </div>
+  </div>
+
+  <section>
+    <h2>Por Que a Transição Ecológica é Importante?</h2>
+    <p class="subtitle">A transição ecológica doméstica não é apenas uma tendência, mas uma necessidade urgente. Cada ação individual tem um impacto coletivo significativo na saúde do nosso planeta.</p>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="icon-circle">📉</div>
+        <h3>Redução de Pegada de Carbono</h3>
+        <p>Diminua significativamente suas emissões de CO₂ através de práticas sustentáveis no dia a dia.</p>
+      </div>
+      <div class="why-item">
+        <div class="icon-circle">❤️</div>
+        <h3>Saúde e Bem-estar</h3>
+        <p>Ambientes mais saudáveis, livres de toxinas e com melhor qualidade do ar para toda a família.</p>
+      </div>
+      <div class="why-item">
+        <div class="icon-circle">🌿</div>
+        <h3>Preservação Ambiental</h3>
+        <p>Contribua ativamente para a conservação dos recursos naturais e biodiversidade.</p>
+      </div>
+      <div class="why-item">
+        <div class="icon-circle">💧</div>
+        <h3>Economia de Recursos</h3>
+        <p>Reduza gastos com água, energia e consumo enquanto protege o meio ambiente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Áreas de Ação</h2>
+    <p class="subtitle">Explore diferentes aspectos da sua casa onde você pode implementar mudanças sustentáveis e fazer a diferença.</p>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-img bg1"><span>♻️ Gestão de Resíduos</span></div>
+        <ul>
+          <li>Separe corretamente o lixo reciclável</li>
+          <li>Composte resíduos orgânicos</li>
+          <li>Reduza o uso de plásticos descartáveis</li>
+          <li>Reutilize embalagens sempre que possível</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-img bg2"><span>⚡ Energia Renovável</span></div>
+        <ul>
+          <li>Considere instalar painéis solares</li>
+          <li>Use lâmpadas LED de baixo consumo</li>
+          <li>Desligue aparelhos em stand-by</li>
+          <li>Aproveite a luz natural durante o dia</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-img bg3"><span>💨 Qualidade do Ar</span></div>
+        <ul>
+          <li>Cultive plantas purificadoras de ar</li>
+          <li>Evite produtos químicos agressivos</li>
+          <li>Ventile ambientes regularmente</li>
+          <li>Use produtos de limpeza naturais</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-img bg4"><span>🏠 Eficiência Térmica</span></div>
+        <ul>
+          <li>Melhore o isolamento térmico</li>
+          <li>Use cortinas e persianas estrategicamente</li>
+          <li>Opte por eletrodomésticos eficientes</li>
+          <li>Regule a temperatura conscientemente</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-img bg5"><span>💧 Conservação de Água</span></div>
+        <ul>
+          <li>Instale redutores de vazão</li>
+          <li>Colete água da chuva</li>
+          <li>Conserte vazamentos rapidamente</li>
+          <li>Reaproveite água sempre que possível</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-img bg6"><span>🛍️ Consumo Consciente</span></div>
+        <ul>
+          <li>Compre produtos locais e sazonais</li>
+          <li>Escolha itens com menos embalagens</li>
+          <li>Prefira produtos orgânicos</li>
+          <li>Evite o desperdício de alimentos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="calculadora">
+    <div class="calc-box">
+      <div class="calc-icon">🧮</div>
+      <h2>Calculadora de Impacto</h2>
+      <p class="subtitle">Veja quanto você pode economizar e reduzir seu impacto ambiental por ano</p>
+
+      <div class="calc-options">
+        <label class="calc-option">
+          <input type="checkbox" class="calc-check" data-co2="120" data-agua="0" data-energia="0">
+          Reciclagem e compostagem de resíduos
+        </label>
+        <label class="calc-option">
+          <input type="checkbox" class="calc-check" data-co2="800" data-agua="0" data-energia="2400">
+          Energia solar instalada
+        </label>
+        <label class="calc-option">
+          <input type="checkbox" class="calc-check" data-co2="30" data-agua="15000" data-energia="0">
+          Sistemas de conservação de água
+        </label>
+        <label class="calc-option">
+          <input type="checkbox" class="calc-check" data-co2="90" data-agua="0" data-energia="450">
+          Iluminação LED completa
+        </label>
+      </div>
+
+      <div class="calc-results">
+        <div class="result-item co2">
+          <div class="r-icon">🌳</div>
+          <div class="r-label">CO₂ Reduzido</div>
+          <div class="r-value"><span id="co2val">0</span> kg/ano</div>
+        </div>
+        <div class="result-item agua">
+          <div class="r-icon">💧</div>
+          <div class="r-label">Água Economizada</div>
+          <div class="r-value"><span id="aguaval">0</span> L/ano</div>
+        </div>
+        <div class="result-item energia">
+          <div class="r-icon">⚡</div>
+          <div class="r-label">Energia Economizada</div>
+          <div class="r-value"><span id="energiaval">0</span> kWh/ano</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="newsletter">
+    <h2>✉️ Receba Dicas Ecológicas Semanais</h2>
+    <p>Inscreva-se em nossa newsletter e receba guias práticos, novidades e inspiração para uma vida mais sustentável.</p>
+    <form onsubmit="event.preventDefault(); alert('Inscrição simulada — este é um site de demonstração.');">
+      <input type="email" placeholder="Seu melhor e-mail" required>
+      <button type="submit">Inscrever</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">🍃 EcoLar</div>
+        <p>Transformando casas em espaços sustentáveis, um passo de cada vez.</p>
+      </div>
+      <div>
+        <h4>Recursos</h4>
+        <ul>
+          <li><a href="#">Guia Completo</a></li>
+          <li><a href="#calculadora">Calculadora</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Vídeos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Comunidade</h4>
+        <ul>
+          <li><a href="#">Fórum</a></li>
+          <li><a href="#">Eventos</a></li>
+          <li><a href="#">Parcerias</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Redes Sociais</h4>
+        <div class="social-icons">
+          <span>f</span><span>𝕏</span><span>◎</span><span>▶</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  const checks = document.querySelectorAll('.calc-check');
+  const co2val = document.getElementById('co2val');
+  const aguaval = document.getElementById('aguaval');
+  const energiaval = document.getElementById('energiaval');
+
+  function atualizar() {
+    let co2 = 0, agua = 0, energia = 0;
+    checks.forEach(c => {
+      if (c.checked) {
+        co2 += Number(c.dataset.co2);
+        agua += Number(c.dataset.agua);
+        energia += Number(c.dataset.energia);
+      }
+    });
+    co2val.textContent = co2.toLocaleString('pt-BR');
+    aguaval.textContent = agua.toLocaleString('pt-BR');
+    energiaval.textContent = energia.toLocaleString('pt-BR');
+  }
+
+  checks.forEach(c => c.addEventListener('change', atualizar));
+</script>
+
 </body>
 </html>
