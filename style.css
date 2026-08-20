@@ -1,67 +1,7 @@
-body {
-  background-color: #d9f2d9;
-  font-family: Arial, sans-serif;
-  color: #000000;
-  margin: 10px;
-}
-
 h1 {
-  color: #006600;
-  text-align: center;
+  color: green;
 }
 
 h2 {
-  color: #006600;
-  margin-top: 30px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 15px;
-  border: 2px solid #006600;
-}
-
-ul {
-  font-size: 16px;
-}
-
-li {
-  margin-bottom: 5px;
-}
-
-button {
-  background-color: #4caf50;
-  color: white;
-  font-size: 16px;
-  padding: 8px 16px;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-input[type="checkbox"] {
-  margin-right: 8px;
-}
-
-.resultado {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-footer {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
-  color: #555555;
-}
-
-a {
-  color: #0000ff;
+  color: green;
 }
